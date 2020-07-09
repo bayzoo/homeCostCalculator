@@ -11,7 +11,32 @@
     <h1>This is a heading</h1>
   </header>
   <main>
-    <p>This is the main body</p>
+    <div id="form-container">
+      <form name="total-cost "action="#">
+        <label for="home-select">Rent or buy:</label>
+        <select name="homeSelect" id="home-select">
+          <option value="" disabled selected>---select---</option>
+          <option value="rent">Rent</option>
+          <option value="buy">Buy</option>
+        </select>
+        <label for="mortgage-years">Term (years):</label>
+        <input type="number" name="mortgage" id="mortgage-years">
+        <label for="mortgage-rate">Interest rate:</label>
+        <input type="number" name="mortgage" id="mortgage-rate">
+        <label for="mortgage-loan">Loan amount:</label>
+        <input type="number" name="mortgage" id="mortgage-loan">
+        <label for="rent-pm">Rent:</label>
+        <input type="number" name="rent" id="rent-pm">
+        <label for="council-tax">Council tax:</label>
+        <input type="number" name="councilTax" id="council-tax">
+        <label for="energy">Energy:</label>
+        <input type="number" name="energy" id="energy">
+        <label for="broadband-phone">Phone and broadband:</label>
+        <input type="number" name="broadbandPhone" id="broadband-phone">
+        <label for="home-insurance">Home insurance:</label>
+        <input type="number" name="homeInsurance" id="home-insurance">
+      </form>
+    </div>
   </main>
   <footer>
     <p>This is the footer</p>

@@ -1,12 +1,15 @@
-/* Core Styles */
+/* Core styles */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: rgb(115, 204, 216);
-  color: #fff;
-  font-size: 1.1em;
+  background: rgb(211, 208, 208);
+  color: rgb(0, 0, 0);
+  font-size: 1.6rem;
   line-height: 1.5;
-  text-align: center;
 }
 img {
   display: block;
@@ -15,23 +18,59 @@ img {
 }
 h1, h2, h3 {
   margin: 0;
-  padding: 1em 0;
+  padding: 1.6rem 0;
 
 }
 p {
   margin: 0;
-  padding: 1em 0;
+  padding: 1.6rem 0;
 }
 .btn {
   display: inline-block;
   background: #333;
   color: #fff;
   text-decoration: none;
-  padding: 1em 2em;
-  border: 1px solid #666; 
-  margin: 0.5em 0;
+  padding: 1.6rem 3.2rem;
+  border: 0.2rem solid #666; 
+  margin: 0.8rem 0;
 }
 .btn:hover {
   background: #eaeaea;
   color: #333;
+}
+
+/* Header styles */
+
+header {
+  background: rgb(19, 135, 170);
+  width: 100%;
+  text-align: center;
+}
+header h1 {
+  color: rgb(255, 255, 255);
+}
+
+/* Main styles */
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+#form-container {
+  width: 95%;
+  padding: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+
+footer {
+  background: rgb(19, 135, 170);
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  color: rgb(255, 255, 255);
 }
